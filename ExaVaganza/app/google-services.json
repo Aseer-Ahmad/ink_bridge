@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "132193309707",
+    "firebase_url": "https://potuscalamus.firebaseio.com",
+    "project_id": "potuscalamus",
+    "storage_bucket": "potuscalamus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132193309707:android:98eaf0593d259437",
+        "android_client_info": {
+          "package_name": "com.example.newu.exa_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132193309707-id54pdaccljocucv8f9sgc3m23qlumfo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.exa_ui",
+            "certificate_hash": "478129be79d1172b98b7e6936cc53f6255a8bbfa"
+          }
+        },
+        {
+          "client_id": "132193309707-qsrldmbh1d36mbrtamc197j1iegk0ojj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSzoZul5u00_KPzx9eEfMU3Y8-rJl1PjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132193309707-qsrldmbh1d36mbrtamc197j1iegk0ojj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

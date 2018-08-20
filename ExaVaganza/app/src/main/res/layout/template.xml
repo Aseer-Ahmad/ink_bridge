@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_template1"
+            android:layout_width="100dp"
+            android:layout_height="380dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_template"
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_action_logo" />
+
+    </LinearLayout>
+</LinearLayout>

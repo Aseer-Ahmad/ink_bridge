@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    >
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/cardView">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <ImageView
+            android:src="@drawable/pen"
+            android:layout_marginTop="55dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+
+            />
+        <ImageView
+            android:src="@drawable/star"
+            android:layout_marginTop="55dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="220dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/profiletxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="PROFILE NAME"
+            android:textStyle="bold"/>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_id_complete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cardView"
+        app:layout_anchor="@id/cardView"
+        app:layout_anchorGravity="bottom"
+        android:layout_marginTop="100dp">
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        app:layout_anchor="@id/recycler_id_complete"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_margin="16dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>
